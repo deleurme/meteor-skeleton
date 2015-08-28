@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "host": "hostname",
+      "username": "deploy",
+      "pem": "~/.ssh/id_rsa",
+      "env": {}
+    }
+  ],
+
+  "setupMongo": true,
+  "setupNode": true,
+  "nodeVersion": "0.10.36",
+  "setupPhantom": true,
+  "enableUploadProgressBar": true,
+  "appName": "meteor",
+  "app": "/Users/shawn/src/app",
+
+  "env": {
+    "PORT": 80,
+    "ROOT_URL": "http://myapp.com",
+    "MONGO_URL": "",
+    "MAIL_URL": "smtp://postmaster%40myapp.mailgun.org:PASSWORd@smtp.mailgun.org:587/"
+  },
+  "deployCheckWaitTime": 15
+}
